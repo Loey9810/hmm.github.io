@@ -4,18 +4,22 @@ body {
   margin: 0 auto;
   background-color: #ccc;
 }
+
 @media screen and (min-width: 750px) {
   html {
     font-size: 37.5px !important;
   }
 }
+
 .warp {
   background-color: #fff;
   padding-bottom: 1.1467rem;
 }
+
 a {
   text-decoration: none;
 }
+
 .header {
   height: 2.1333rem;
   border-bottom: 0.0267rem solid #EAEAEA;
@@ -24,11 +28,13 @@ a {
   font-size: 0.9333rem;
   color: #1C1C1C;
 }
+
 .nav {
   display: flex;
   flex-wrap: wrap;
   padding: 1.2rem 0 0 0;
 }
+
 .nav .item {
   display: flex;
   width: 33.33%;
@@ -36,22 +42,27 @@ a {
   align-items: center;
   margin-bottom: 1.6rem;
 }
+
 .nav .item img {
   width: 3.7067rem;
   height: 3.7067rem;
 }
+
 .nav .item span {
   font-size: 0.6667rem;
   color: #707070;
 }
+
 .go {
   margin: 0 0.2667rem 0 0.48rem;
 }
+
 .content {
   padding: 1.0667rem 0.64rem;
   background-color: #fff;
   margin-top: 0.2667rem;
 }
+
 .content .con_hd {
   display: flex;
   justify-content: space-between;
@@ -59,11 +70,13 @@ a {
   line-height: 1.0133rem;
   margin-bottom: 0.9067rem;
 }
+
 .content .con_hd h4 {
   margin: 0;
   font-size: 0.7467rem;
   color: #333333;
 }
+
 .content .con_hd h4::before {
   content: '';
   width: 1.0133rem;
@@ -74,14 +87,17 @@ a {
   vertical-align: middle;
   margin-right: 0.2133rem;
 }
+
 .content .con_hd a {
   font-size: 0.5867rem;
   color: #999999;
 }
+
 .get_job_focus {
   position: relative;
   overflow: hidden;
 }
+
 .get_job_focus .swiper-button-prev,
 .get_job_focus .swiper-button-next {
   --swiper-theme-color: #ff6600;
@@ -91,11 +107,13 @@ a {
   --swiper-navigation-size: 0.8rem;
   /* 设置按钮大小 */
 }
+
 .get_job_focus .swiper-container {
   width: 100%;
   height: 100%;
   width: 14.4rem;
 }
+
 .get_job_focus .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -118,39 +136,47 @@ a {
   transform: scale(0.8);
   opacity: 0.5;
 }
+
 .get_job_focus .swiper-slide a {
   width: 9.0133rem;
   height: 10.0267rem;
 }
+
 .get_job_focus .swiper-slide a img {
   width: 100%;
   height: 100%;
 }
+
 .get_job_focus .swiper-slide p {
   font-size: 0.6667rem;
   margin-top: 0.64rem;
   white-space: nowrap;
   display: none;
 }
+
 .get_job_focus .swiper-slide-active,
 .get_job_focus .swiper-slide-duplicate-active {
   transform: scale(1);
   z-index: 999;
   opacity: 1;
 }
+
 .get_job_focus .swiper-slide-active p,
 .get_job_focus .swiper-slide-duplicate-active p {
   display: block;
 }
+
 .study {
   margin-bottom: 3.7333rem;
   overflow: hidden;
 }
+
 .study .swiper {
   width: 100%;
   height: 100%;
   padding: 0.2667rem;
 }
+
 .study .swiper-slide {
   font-size: 18px;
   background: #fff;
@@ -159,21 +185,25 @@ a {
   border-radius: 0.2667rem;
   box-shadow: 0 0rem 0.2667rem rgba(0, 0, 0, 0.1);
 }
+
 .study .swiper-slide h5 {
   font-size: 0.6933rem;
   font-weight: 400;
   margin: 0.53333rem 0;
   padding-left: 0.2667rem;
 }
+
 .study .swiper-slide span {
   font-size: 0.6933rem;
   color: #ff4400;
   padding-left: 0.2667rem;
 }
+
 .study .swiper-slide img {
   display: block;
   width: 100%;
 }
+
 .footer {
   position: fixed;
   left: 0;
@@ -186,6 +216,7 @@ a {
   padding: 0.5333rem;
   border-top: 0.0267rem solid #ccc;
 }
+
 .footer a {
   flex: 1;
   display: flex;
@@ -193,11 +224,13 @@ a {
   flex-direction: column;
   align-items: center;
 }
+
 .footer a img {
   width: 1.04rem;
   height: 1.0933rem;
   margin-top: 0.2667rem;
 }
+
 .footer a p {
   font-size: 0.5867rem;
   color: #666;
