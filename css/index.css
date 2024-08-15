@@ -78,6 +78,7 @@ a {
 }
 .get_job_focus {
   position: relative;
+  overflow: hidden;
 }
 .get_job_focus .swiper-button-prev,
 .get_job_focus .swiper-button-next {
@@ -141,6 +142,7 @@ a {
 }
 .study {
   margin-bottom: 3.7333rem;
+  overflow: hidden;
 }
 .study .swiper {
   width: 100%;
