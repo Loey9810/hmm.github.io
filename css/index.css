@@ -5,7 +5,9 @@ body {
   background-color: #ccc;
 }
 @media screen and (min-width: 750px) {
-  font-size: 37.5px !important;
+  html {
+    font-size: 37.5px !important;
+  }
 }
 .warp {
   background-color: #fff;
