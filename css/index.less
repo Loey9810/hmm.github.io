@@ -1,0 +1,242 @@
+body {
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #ccc;
+}
+
+// 约束屏幕大于750px的最大字体
+@media screen and (min-width:750px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+
+.warp {
+  background-color: #fff;
+  padding-bottom: 1.1467rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 2.1333rem;
+  border-bottom: .0267rem solid #EAEAEA;
+  text-align: center;
+  line-height: 2.1333rem;
+  font-size: .9333rem;
+  color: #1C1C1C;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.2rem 0 0 0;
+
+  .item {
+    display: flex;
+    width: 33.33%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.6rem;
+
+    img {
+      width: 3.7067rem;
+      height: 3.7067rem;
+    }
+
+    span {
+      font-size: .6667rem;
+      color: #707070;
+    }
+  }
+}
+
+.go {
+  margin: 0 .2667rem 0 .48rem;
+}
+
+.content {
+  padding: 1.0667rem .64rem;
+  background-color: #fff;
+  margin-top: .2667rem;
+
+  .con_hd {
+    display: flex;
+    justify-content: space-between;
+    height: 1.0133rem;
+    line-height: 1.0133rem;
+    margin-bottom: .9067rem;
+
+    h4 {
+      margin: 0;
+      font-size: .7467rem;
+      color: #333333;
+
+
+      &::before {
+        content: '';
+        width: 1.0133rem;
+        height: 1.0133rem;
+        display: inline-block;
+        background: url(../icons/i2.png) no-repeat;
+        background-size: 1.0133rem 1.0133rem;
+        vertical-align: middle;
+        margin-right: .2133rem;
+      }
+    }
+
+    a {
+      font-size: .5867rem;
+      color: #999999;
+    }
+  }
+}
+
+.get_job_focus {
+  position: relative;
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    --swiper-theme-color: #ff6600;
+    /* 设置Swiper风格 */
+    --swiper-navigation-color: black;
+    /* 单独设置按钮颜色 */
+    --swiper-navigation-size: .8rem;
+    /* 设置按钮大小 */
+
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    width: 14.4rem;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    transition: 300ms;
+    // 其余的兄弟
+    transform: scale(0.8);
+    opacity: 0.5;
+
+    a {
+      width: 9.0133rem;
+      height: 10.0267rem;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    p {
+      font-size: .6667rem;
+      margin-top: .64rem;
+      white-space: nowrap;
+      display: none;
+    }
+  }
+
+  .swiper-slide-active,
+  .swiper-slide-duplicate-active {
+    transform: scale(1);
+    z-index: 999;
+    opacity: 1;
+
+    p {
+      display: block;
+    }
+  }
+}
+
+// 学习模块轮播图
+.study {
+  margin-bottom: 3.7333rem;
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    padding: .2667rem;
+  }
+
+  .swiper-slide {
+
+    font-size: 18px;
+    background: #fff;
+    width: 7.7333rem;
+    height: 9.0667rem;
+    border-radius: .2667rem;
+    box-shadow: 0 0rem .2667rem rgba(0, 0, 0, .1);
+
+    h5 {
+      font-size: .6933rem;
+      font-weight: 400;
+      margin: 0.53333rem 0;
+      padding-left: .2667rem;
+    }
+
+    span {
+      font-size: .6933rem;
+      color: #ff4400;
+      padding-left: .2667rem;
+    }
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 2.9333rem;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999999;
+  display: flex;
+  padding: .5333rem;
+  border-top: .0267rem solid #ccc;
+
+  a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 1.04rem;
+      height: 1.0933rem;
+      margin-top: .2667rem;
+    }
+
+    p {
+      font-size: .5867rem;
+      color: #666;
+      margin: .2667rem;
+    }
+  }
+}
